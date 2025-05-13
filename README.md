@@ -1,6 +1,7 @@
 # SoftTechnova
 
-**TASK :-1 = To do list **
+#TASK :-1 = To do list 
+
 This is a reminder application for tasks developed with Python's tkinter GUI library. It takes a task and a deadline (in YYYY-MM-DD HH:MM format) as input and creates a reminder notification that appears when the time is up. 
 The GUI has visual effects such as a light blue background and a clock icon.tkinter: 
 For GUI widgets and layout.messagebox: For pop-up messages (error/warning dialogs).
