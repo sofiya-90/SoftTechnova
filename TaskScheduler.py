@@ -8,15 +8,12 @@ from PIL import Image, ImageTk
 import requests
 from io import BytesIO
 
-# Global flag for user permission
 notifications_enabled = False
 
-# Notify the user at the specified time
 def notify(task, deadline):
     while True:
         now = datetime.now()
         deadline_time = datetime.strptime(deadline, '%Y-%m-%d %H:%M')
-
         if now >= deadline_time:
             if notifications_enabled:
                 notification.notify(
@@ -28,7 +25,6 @@ def notify(task, deadline):
             break
         time.sleep(30)
 
-# Add the task to the list and set notification
 def add_task():
     task = task_entry.get()
     deadline = deadline_entry.get()
@@ -47,21 +43,18 @@ def add_task():
     else:
         messagebox.showwarning("Input Error", "Please enter both task and deadline")
 
-# GUI Setup
 root = tk.Tk()
 root.title("Creative Task Manager")
-root.geometry("500x600")
+root.geometry("500x660")
 root.configure(bg='lightblue')
 
-# Ask for Notification Permission
 def ask_notification_permission():
     global notifications_enabled
     allow = messagebox.askyesno("Permission Required", "Do you want to allow task notifications?")
     notifications_enabled = allow
 
-root.after(100, ask_notification_permission)  # Ask shortly after GUI starts
+root.after(100, ask_notification_permission)
 
-# Clock Image Handling
 try:
     url = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Clock_Font_Awesome.svg/1024px-Clock_Font_Awesome.svg.png"
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -74,7 +67,6 @@ except Exception:
     clock_label = tk.Label(root, text="🕒", font=("Arial", 48), bg='lightblue')
     clock_label.pack(pady=10)
 
-# Input Fields
 tk.Label(root, text="Enter Task:", bg='lightblue', font=("Arial", 12, "bold")).pack()
 task_entry = tk.Entry(root, width=40, font=("Arial", 12))
 task_entry.pack(pady=5)
@@ -88,5 +80,15 @@ add_btn.pack(pady=10)
 
 task_list = tk.Listbox(root, width=50, height=10, font=("Arial", 11))
 task_list.pack(pady=20)
+
+# Clearly visible creator label
+creator_label = tk.Label(
+    root,
+    text="👩‍💻 Created by: Tulsi Bedarkar",
+    font=("Arial", 12, "bold"),
+    bg='lightblue',
+    fg='darkblue'
+)
+creator_label.pack(side=tk.BOTTOM, pady=15)
 
 root.mainloop()
