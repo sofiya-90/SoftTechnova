@@ -19,5 +19,10 @@ For retrieving and loading the clock image from a URL.
 #This screenshot shows the interface of an created to do list python application
 ![Image](https://github.com/user-attachments/assets/93efd557-7c80-4a09-9ef2-8975b195a3bf)
 
+
+
 #Result of adding task to the task scheduler
+
+
+
 ![Image](https://github.com/user-attachments/assets/ddb4ed1f-6e35-4754-a1a9-226c1bb956ba)
