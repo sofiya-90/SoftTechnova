@@ -15,3 +15,6 @@ PIL (Pillow):
 To manage image download and display in the GUI.
 requests and io.BytesIO: 
 For retrieving and loading the clock image from a URL.
+
+#This screenshot shows the interface of an created to do list python application
+![Image](https://github.com/user-attachments/assets/d9c524d4-8f37-492f-8c00-ad4007b30d87)
