@@ -31,6 +31,7 @@ For retrieving and loading the clock image from a URL.
 Dodge the Falling Blocks" is an interactive arcade-style game developed using Pygame. The player controls a small blue square that must dodge randomly falling red blocks. The game features a visually appealing forest background, interactive start and pause buttons, and a real-time timer that displays the duration of gameplay in minutes and seconds.
 
 #This screenshot shows the initial interface of dodge game 
+
 ![Image](https://github.com/user-attachments/assets/2c4dff4d-3ae2-4d51-b147-d46c4dc3fc8e)
 
 #Home page of Dodge Game when it starts 
