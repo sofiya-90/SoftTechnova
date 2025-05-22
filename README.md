@@ -32,11 +32,15 @@ Dodge the Falling Blocks" is an interactive arcade-style game developed using Py
 
 #This screenshot shows the initial interface of dodge game 
 
+
 ![Image](https://github.com/user-attachments/assets/2c4dff4d-3ae2-4d51-b147-d46c4dc3fc8e)
 
-#Home page of Dodge Game when it starts 
-![Image](https://github.com/user-attachments/assets/71ba236a-9f25-4d33-8ea7-6e58db4dc4c7)
+#This screenshot shows the homepage of Dodge game
 
-#This is the interface of Dodge game when its over and the user is ready to start the new game 
+![Image](https://github.com/user-attachments/assets/ff7985c0-309a-4274-8052-048efb2111dd)
 
-![Image](https://github.com/user-attachments/assets/83a00753-bdb2-4b61-81a0-1b6ae74da1ab)
+
+#Dodge game shows this ineterface ones this game ends to start the new game .
+
+![Image](https://github.com/user-attachments/assets/49414a56-93f2-425d-bee9-30c9c9e3058e)
+
