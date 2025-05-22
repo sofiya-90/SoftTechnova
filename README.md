@@ -1,6 +1,6 @@
 # SoftTechnova
 
-#TASK :-1 = To do list 
+# TASK :-1 = To do list 
 
 This is a reminder application for tasks developed with Python's tkinter GUI library. It takes a task and a deadline (in YYYY-MM-DD HH:MM format) as input and creates a reminder notification that appears when the time is up. 
 The GUI has visual effects such as a light blue background and a clock icon.tkinter: 
@@ -26,3 +26,16 @@ For retrieving and loading the clock image from a URL.
 
 
 ![Image](https://github.com/user-attachments/assets/ddb4ed1f-6e35-4754-a1a9-226c1bb956ba)
+
+# TASK:-2 Dodge Falling Blocks Game 
+Dodge the Falling Blocks" is an interactive arcade-style game developed using Pygame. The player controls a small blue square that must dodge randomly falling red blocks. The game features a visually appealing forest background, interactive start and pause buttons, and a real-time timer that displays the duration of gameplay in minutes and seconds.
+
+#This screenshot shows the initial interface of dodge game 
+![Image](https://github.com/user-attachments/assets/2c4dff4d-3ae2-4d51-b147-d46c4dc3fc8e)
+
+#Home page of Dodge Game when it starts 
+![Image](https://github.com/user-attachments/assets/71ba236a-9f25-4d33-8ea7-6e58db4dc4c7)
+
+#This is the interface of Dodge game when its over and the user is ready to start the new game 
+
+![Image](https://github.com/user-attachments/assets/83a00753-bdb2-4b61-81a0-1b6ae74da1ab)
